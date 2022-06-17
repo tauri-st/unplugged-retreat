@@ -1,6 +1,5 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -84,6 +83,17 @@ textarea {
 }
 
 /* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
@@ -91,18 +101,16 @@ textarea {
   width: 90%;
   margin: 50px 0;
 }
-   
-   /***** BASE HEADER- FOOTER STYLES *****/
-  
-   header,
-   footer {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: center;
-   }
 
-/* HEADER STYLES */
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 header {
   padding: 15px 0;
@@ -110,42 +118,38 @@ header {
 
 header .content-wrapper {
   display: flex;
-  align-content: center;
-  flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   margin: 0;
 }
 
 .header-divider {
   width: 100%;
-}
-/**  
-height: 1px;
+  height: 1px;
   margin: 10px 0 20px 0;
-**/
+}
 
 header nav {
-  width: 60%;
   display: flex;
-  align-content: center;
-  flex-flow: row wrap;
   justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
-  width: 100%;
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
-
-header nav ul li {
-
-}
-
-/* FOOTER STYLES */
 
 footer {
   flex-direction: column;
+}
+
+footer p {
+  margin: 0;
 }
 
 footer .content-wrapper {
@@ -153,168 +157,138 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer p {
-  margin: 0;
-}
-
 footer .contact {
   margin-bottom: 50px;
 }
 
-.social {
-
-}
-
 footer .social-icons {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 }
 
 footer .social-icons p {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.copyright {
+footer .copyright {
   margin: 20px 0;
 }
 
-/***** MOBILE STYLES --- HOMEPAGE *****/
-/* HERO STYLES */
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* Hero Area */
+
 .hero-area {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
-.hero-image {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+/* Aside */
 
-/* FORM STYLES */
 aside {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  justify-content: center;
 }
 
-aside .form-description {
+/* Features */
 
-}
-
-.form {
-  
-}
-
-/* FEATURES STYLES */
- .features {
+.features {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
- }
+  flex-flow: row wrap;
+}
 
- .features .content-wrapper {
-
- }
-
- .features h2 {
+.features h2 {
   margin-bottom: 60px;
- }
+}
 
- .features-article {
+.features article {
   width: 63%;
   margin: 30px 0;
- }
+}
 
- .features-items {
+.features .features-items {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  justify-content: center;
- }
+}
 
- .features p {
+.features p {
   margin: 0;
- }
+}
 
- .fontawesome-icon {
+/* Reviews */
 
- }
-
- .features-item-description {
-
- }
-
- /* REVIEWS STYLES */
- .reviews {
+.reviews {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
- }
+  flex-flow: row wrap;
+}
 
- .reviews h2 {
+.reviews h2 {
   margin-bottom: 40px;
- }
- .reviews h3 {
+}
+
+.reviews h3 {
   width: 55%;
   margin: 20px 0;
- }
- .reviews article {
+}
 
- }
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
- .reviews article img {
-
- }
-
- .review-one {
-
- }
-
- /***** ABOUT STYLES *****/
-
- .mission {
+.mission {
   display: flex;
-  align-content: center;
-  flex-flow: row wrap;
   justify-content: center;
- }
+  align-items: center;
+  flex-flow: row wrap;
+}
 
- .contact-section {
+.contact-section {
   display: flex;
-  align-content: center;
-  flex-flow: row wrap;
   justify-content: center;
- }
+  align-items: center;
+  flex-flow: row wrap;
+}
 
- .contact-content p {
+.contact-content p {
   margin: 0;
- }
+}
 
- /***** FAQ STYLES *****/
- .faq {
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
   margin: 50px 0 0 0;
   display: flex;
-  align-content: center;
-  flex-flow: row wrap;
   justify-content: center;
- }
-
- .faq .content-wrapper {
-  display: flex;
-  align-content: center;
+  align-items: center;
   flex-flow: row wrap;
-  justify-content: center;
- }
+}
 
- .faw h2 {
+.faq h2 {
   margin-bottom: 40px;
- }
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -324,8 +298,7 @@ aside .form-description {
  * Hide visually and from screen readers
  */
 
-.hidden,
-[hidden] {
+.hidden {
   display: none !important;
 }
 
@@ -338,34 +311,34 @@ aside .form-description {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
+.visuallyhidden {
   border: 0;
-  clip: rect(0, 0, 0, 0);
+  clip: rect(0 0 0 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  white-space: nowrap;
   /* 1 */
 }
 
 /*
- * Extends the .sr-only class to allow the element
+ * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
   overflow: visible;
   position: static;
-  white-space: inherit;
   width: auto;
+  white-space: inherit;
 }
 
 /*
@@ -388,13 +361,15 @@ aside .form-description {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix::before,
-.clearfix::after {
+.clearfix:before,
+.clearfix:after {
   content: " ";
+  /* 1 */
   display: table;
+  /* 2 */
 }
 
-.clearfix::after {
+.clearfix:after {
   clear: both;
 }
 
@@ -409,9 +384,9 @@ aside .form-description {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -423,70 +398,60 @@ aside .form-description {
 
 @media print {
   *,
-  *::before,
-  *::after {
-    background: #fff !important;
+  *:before,
+  *:after {
+    background: transparent !important;
     color: #000 !important;
     /* Black prints faster */
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
   a:visited {
     text-decoration: underline;
   }
-
-  a[href]::after {
+  a[href]:after {
     content: " (" attr(href) ")";
   }
-
-  abbr[title]::after {
+  abbr[title]:after {
     content: " (" attr(title) ")";
   }
-
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
   thead {
     display: table-header-group;
   }
-
   tr,
   img {
     page-break-inside: avoid;
   }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
-
