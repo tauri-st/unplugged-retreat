@@ -93,19 +93,30 @@ html {
 }
 
 body {
- font-family: 'Open Sans', sans-serif;
+ color: #e2e3ed;
+font-family: 'Open Sans', sans-serif;
  font-size: 1em;
 }
 
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
-
+h2 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-	
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.125;
+}
+
+p {
+  font-size: 1.1429;
+}
+
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -129,6 +140,7 @@ a {
 /* HEADER STYLES */
 
 header {
+  background-color: #202322;
   padding: 15px 0;
 }
 
@@ -157,10 +169,11 @@ header nav {
 }
 
 header nav ul {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   list-style: none;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 header nav ul li {
@@ -170,6 +183,7 @@ header nav ul li {
 /* FOOTER STYLES */
 
 footer {
+  background-color: #202322;
   flex-direction: column;
 }
 
@@ -180,6 +194,7 @@ footer .content-wrapper {
 
 footer p {
   margin: 0;
+  text-align: center;
 }
 
 footer .contact {
@@ -209,6 +224,7 @@ footer .social-icons p {
 /***** MOBILE STYLES --- HOMEPAGE *****/
 /* HERO STYLES */
 .hero-area {
+  background-color: #373938;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -222,6 +238,7 @@ footer .social-icons p {
 
 /* FORM STYLES */
 aside {
+  background-color: #527158;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -238,6 +255,7 @@ aside .form-description {
 
 /* FEATURES STYLES */
  .features {
+  background-color: #373938;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -263,6 +281,10 @@ aside .form-description {
   justify-content: center;
  }
 
+ .features-items p {
+  text-align: center;
+ }
+
  .features p {
   margin: 0;
  }
@@ -277,6 +299,7 @@ aside .form-description {
 
  /* REVIEWS STYLES */
  .reviews {
+  background-color: #527158;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -340,6 +363,32 @@ aside .form-description {
  .faw h2 {
   margin-bottom: 40px;
  }
+	
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
