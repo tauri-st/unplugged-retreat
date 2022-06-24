@@ -152,6 +152,20 @@ header .content-wrapper {
   margin: 0;
 }
 
+header img {
+  width: 100%;
+}
+
+header figure {
+  margin: 0; 
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
 .header-divider {
   width: 100%;
 }
@@ -197,6 +211,10 @@ footer p {
   text-align: center;
 }
 
+footer i {
+  font-size: 2em;
+}
+
 footer .contact {
   margin-bottom: 50px;
 }
@@ -224,19 +242,20 @@ footer .social-icons p {
 /***** MOBILE STYLES --- HOMEPAGE *****/
 /* HERO STYLES */
 .hero-area {
-  background-color: #373938;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.hero-area .content-wrapper {
-  background: url('img/hero-image.jpg') center no-repeat green;
+  background: url('../img/hero-image.jpg') center no-repeat green;
   background-size: cover;
   display: flex;
   align-items: center;
   flex-wrap: row wrap;
   justify-content: center;
+}
+
+.hero-area .content-wrapper {
+ 
+}
+
+.hero-area h2 {
+  margin-bottom: 300px;
 }
 
 /* FORM STYLES */
@@ -258,28 +277,32 @@ aside .form-description {
 
 /* FEATURES STYLES */
  .features {
-  background-color: #373938;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
- }
-
- .features .content-wrapper {
-  background: url('img/features-image.jpg') center no-repeat #333;
+  background: url('../img/features-image.jpg') center no-repeat #333;
   background-size: cover;
+  width: 90%;
   display: flex;
   align-items: center;
   flex-wrap: row wrap;
   justify-content: center;
  }
 
+ .features .content-wrapper {
+  
+ }
+
  .features h2 {
+  font-size: 1.875em;
   margin-bottom: 60px;
  }
 
- .features-article {
-  width: 63%;
+ .features article {
+  width: 60%;
   margin: 30px 0;
+ }
+
+ .features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
  }
 
  .features-items {
@@ -324,9 +347,18 @@ aside .form-description {
 
  }
 
- .reviews article img {
+.reviews article img {
+  width: 100%;
+}
 
- }
+.reviews article figure {
+  margin: 0; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
  .review-one {
 
