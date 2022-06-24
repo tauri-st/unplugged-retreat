@@ -230,10 +230,13 @@ footer .social-icons p {
   justify-content: center;
 }
 
-.hero-image {
+.hero-area .content-wrapper {
+  background: url('img/hero-image.jpg') center no-repeat green;
+  background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  flex-wrap: row wrap;
+  justify-content: center;
 }
 
 /* FORM STYLES */
@@ -262,7 +265,12 @@ aside .form-description {
  }
 
  .features .content-wrapper {
-
+  background: url('img/features-image.jpg') center no-repeat #333;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-wrap: row wrap;
+  justify-content: center;
  }
 
  .features h2 {
