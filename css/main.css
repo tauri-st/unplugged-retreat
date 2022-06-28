@@ -101,8 +101,7 @@ font-family: 'Open Sans', sans-serif;
 h2 
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;    
 }
 
 h2 {
@@ -198,12 +197,11 @@ header nav ul li {
 
 footer {
   background-color: #202322;
-  flex-direction: column;
 }
 
 footer .content-wrapper {
-  width: 55%;
   margin: 50px 0;
+  width: 55%;
 }
 
 footer p {
@@ -251,7 +249,6 @@ footer .social-icons p {
 }
 
 .hero-area .content-wrapper {
- 
 }
 
 .hero-area h2 {
@@ -260,26 +257,38 @@ footer .social-icons p {
 
 /* FORM STYLES */
 aside {
-  background-color: #527158;
   display: flex;
-  align-items: center;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #527158;
+  padding: 20px 0 50px 10px;
+}
+
+aside .content-wrapper {
+  margin: 0;
 }
 
 aside .form-description {
-
+  
 }
 
-.form {
-  
+aside .form-description h3 {
+  margin: 15px 0 10px 0;
+}
+
+aside .form-description p {
+  margin: 0;
+}
+
+
+aside .form {
+  width: 90%;
 }
 
 /* FEATURES STYLES */
  .features {
   background: url('../img/features-image.jpg') center no-repeat #333;
   background-size: cover;
-  width: 90%;
   display: flex;
   align-items: center;
   flex-wrap: row wrap;
@@ -332,8 +341,14 @@ aside .form-description {
  .reviews {
   background-color: #527158;
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+ }
+
+ .reviews .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
  }
 
  .reviews h2 {
@@ -386,11 +401,12 @@ aside .form-description {
 
  /***** FAQ STYLES *****/
  .faq {
-  margin: 50px 0 0 0;
   display: flex;
   align-content: center;
   flex-flow: row wrap;
   justify-content: center;
+  background: #527158;
+  margin: 50px 0 0 0;
  }
 
  .faq .content-wrapper {
@@ -400,13 +416,10 @@ aside .form-description {
   justify-content: center;
  }
 
- .faw h2 {
+ .faq h2 {
+  line-height: 1em;
   margin-bottom: 40px;
  }
-	
-aside .form {
-  margin-top: 30px;
-}
  
 input[type=text] {
   box-sizing: border-box;
