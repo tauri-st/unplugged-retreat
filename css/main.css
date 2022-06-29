@@ -93,9 +93,9 @@ html {
 }
 
 body {
- color: #e2e3ed;
-font-family: 'Open Sans', sans-serif;
- font-size: 1em;
+  color: #e2e3ed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 h2 
@@ -105,20 +105,31 @@ h4 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 1.125;
+  margin: 20px 0;
 }
 
 p {
-  font-size: 1.1429;
+  font-size: .875;
+  line-height: 1.285;
 }
 
 a {
   color: #e2e3ed;
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 .content-wrapper {
@@ -134,12 +145,12 @@ a {
     align-items: center;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: #202322;
    }
 
 /* HEADER STYLES */
 
 header {
-  background-color: #202322;
   padding: 15px 0;
 }
 
@@ -156,22 +167,20 @@ header img {
 }
 
 header figure {
-  margin: 0; 
-  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0; 
+  width: 60%;
 }
-
 
 .header-divider {
+  background: #3a3a3a; 
+  height: 1px;
   width: 100%;
-}
-/**  
-height: 1px;
   margin: 10px 0 20px 0;
-**/
+}
 
 header nav {
   width: 60%;
@@ -185,18 +194,19 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: 0;
   text-transform: uppercase;
   width: 100%;
 }
 
 header nav ul li {
-
+  
 }
 
 /* FOOTER STYLES */
 
 footer {
-  background-color: #202322;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -238,8 +248,6 @@ footer .social-icons p {
   justify-content: center;
 }
 
-
-
 .copyright {
   margin: 20px 0;
 }
@@ -247,19 +255,24 @@ footer .social-icons p {
 /***** MOBILE STYLES --- HOMEPAGE *****/
 /* HERO STYLES */
 .hero-area {
-  background: url('../img/hero-image.jpg') center no-repeat green;
-  background-size: cover;
   display: flex;
-  align-items: center;
   flex-wrap: row wrap;
   justify-content: center;
+  background: url('../img/hero-image.jpg') center no-repeat green;
+  background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area .content-wrapper {
+  
 }
 
 .hero-area h2 {
-  margin-bottom: 300px;
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2;
+  margin: 0; 
 }
 
 /* FORM STYLES */
@@ -275,21 +288,26 @@ aside .content-wrapper {
   margin: 0;
 }
 
-aside .form-description {
-  
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
 }
-
-aside .form-description h3 {
-  margin: 15px 0 10px 0;
-}
-
-aside .form-description p {
-  margin: 0;
-}
-
-
-aside .form {
-  width: 90%;
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* FEATURES STYLES */
@@ -297,7 +315,6 @@ aside .form {
   background: url('../img/features-image.jpg') center no-repeat #333;
   background-size: cover;
   display: flex;
-  align-items: center;
   flex-wrap: row wrap;
   justify-content: center;
  }
@@ -307,12 +324,11 @@ aside .form {
  }
 
  .features h2 {
-  font-size: 1.875em;
   margin-bottom: 60px;
  }
 
  .features article {
-  width: 60%;
+  width: 63%;
   margin: 30px 0;
  }
 
@@ -349,17 +365,11 @@ aside .form {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
+  flex-flow: row-wrap;
  }
-
- .reviews .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
- }
-
  .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
  }
  .reviews h3 {
   width: 55%;
@@ -368,20 +378,6 @@ aside .form {
  .reviews article {
 
  }
-
-.reviews article img {
-  width: 100%;
-}
-
-.reviews article figure {
-  margin: 0; 
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
  .review-one {
 
  }
@@ -445,28 +441,6 @@ aside .form {
   line-height: 1em;
   margin-bottom: 40px;
  }
- 
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 /* ==========================================================================
    Helper classes
@@ -557,7 +531,9 @@ input[type=button] {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Styles for tablet */
+  aside .content-wrapper {
+    width: 
+  }
 }
 
 @media only screen and (min-width: 1200px) {
