@@ -197,6 +197,7 @@ header nav ul li {
 
 footer {
   background-color: #202322;
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -210,7 +211,7 @@ footer p {
 }
 
 footer i {
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 footer .contact {
@@ -228,10 +229,16 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 
 .copyright {
   margin: 20px 0;
@@ -339,7 +346,7 @@ aside .form {
 
  /* REVIEWS STYLES */
  .reviews {
-  background-color: #527158;
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
  }
