@@ -530,6 +530,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
+/***** TABLET STYLES *****/
 @media only screen and (min-width: 768px) {
 /** UNIVERSAL **/  
   .content-wrapper {
@@ -628,6 +629,11 @@ input[type=button] {
     width: 50%;
    }
 
+/** MAP **/
+   .map-container {
+    padding-bottom: 100%;
+   }
+
 /** CONTACT **/
    .contact-section .content-wrapper h2 {
     width: 50%;
@@ -703,6 +709,11 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     width: 100%;
   }
+
+/** MAP **/
+.map-container {
+  padding-bottom: 30%;
+ }
 
 /***** FAQ *****/
   .faq h2 {
