@@ -603,6 +603,10 @@ input[type=button] {
     justify-content: center;
    }
 
+   .reviews article figure {
+    width: 50%;
+  }
+
    .reviews article div {
     width: 50%;
    }
@@ -655,6 +659,11 @@ input[type=button] {
     max-width: 960px;
   }
 
+/** HEADER **/
+  header figure {
+    width: 30%;
+  }
+
 /***** HOMEPAGE *****/
 /** HERO AREA **/
   .hero-area h2 {
@@ -682,6 +691,10 @@ input[type=button] {
   }
 /** REVIEWS **/
   .reviews article .review-one {
+    width: 50%;
+  }
+
+  .reviews .content-wrapper article figure {
     width: 50%;
   }
 
