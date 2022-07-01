@@ -650,7 +650,51 @@ input[type=button] {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* Styles for tablet */
+/** UNIVERSAL **/
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+/***** HOMEPAGE *****/
+/** HERO AREA **/
+  .hero-area h2 {
+    width: 63%;
+  }
+
+/** FORM **/
+  aside .content-wrapper {
+    justify-content: center;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+  }
+
+/** FEATURES **/
+  .features h2 {
+    width: 70%;
+  }
+
+  /** Why flex-basis here? **/
+  .features article {
+    flex-basis: 20%;
+  }
+/** REVIEWS **/
+  .reviews article .review-one {
+    width: 50%;
+  }
+
+/***** ABOUT *****/
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+  }
+
+/***** FAQ *****/
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 @media print,
