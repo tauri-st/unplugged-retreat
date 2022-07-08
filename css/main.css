@@ -211,8 +211,8 @@ footer {
 }
 
 footer .content-wrapper {
-  margin: 50px 0;
-  width: 55%;
+  margin: 50px 0 0 0;
+  width: 60%;
 }
 
 footer p {
@@ -251,11 +251,15 @@ footer .social-icons p {
 
 .copyright {
   padding-top: 50px;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
-/***** MOBILE STYLES --- HOMEPAGE *****/
+.copyright p {
+
+}
+
+/***** MOBILE STYLES *****/
+ /***** HOMEPAGE *****/
 /* HERO STYLES */
 .hero-area {
   display: flex;
@@ -572,6 +576,7 @@ input[type=button] {
 
   header .content-wrapper {
     justify-content: space-between;
+    padding: 20px 0;
   }
 
   header nav {
@@ -593,6 +598,8 @@ input[type=button] {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 10px;
    }
 
    footer h3 {
@@ -677,11 +684,6 @@ input[type=button] {
     margin: 0;
   }
 
-/*** Def confused about flex-basis still **/
-   .faq .content-wrapper {
-    flex-basis: 100%;
-   }
-
 /***** ABOUT *****/
 /** MISSION **/
    .mission-content {
@@ -723,7 +725,10 @@ input[type=button] {
    }
 
 /** FAQ **/
+/*** Def confused about flex-basis still **/
    .faq .content-wrapper {
+    flex-basis: 85%;
+    margin: 60px 0;
     justify-content: space-between;
    }
 
@@ -733,6 +738,7 @@ input[type=button] {
    }
 
    .faq h2 {
+    margin-bottom: 15px;
     width: 100%;
    }
 

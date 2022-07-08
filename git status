@@ -1,0 +1,137 @@
+[33mcommit 8e16755efcd8d983fa5849661ba799312e859959[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jul 5 17:56:51 2022 -0700
+
+    Further style details to match design comp
+
+[33mcommit 3c1af2196aa1bb72cccc1676cb8dfd3968e1ee6d[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 30 17:52:56 2022 -0700
+
+    Sized responsive iframe for tablet and mobile
+
+[33mcommit fd63b084e7808c8acae5be1ece7a07ab794b609d[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 30 17:42:55 2022 -0700
+
+    Sized images for tablet and desktop
+
+[33mcommit 3bee52f7f866d21bac072da2bf8d2cfbd1d3b2b8[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 30 17:14:33 2022 -0700
+
+    Desktop initial layout pass
+
+[33mcommit 54ac3d65fffecd4ea387200c8d791fd132800d64[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 30 16:33:21 2022 -0700
+
+    Tablet general formatting
+
+[33mcommit 9d58572854caae8d51b1bf14fd6b21b51627d3a4[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Wed Jun 29 16:45:23 2022 -0700
+
+    Compared mobile styles to solution code
+
+[33mcommit 1315f35c7957960aee3b2e7487a41cd642c9313e[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 28 18:12:38 2022 -0700
+
+    Added styles to mobile About and added iframe map
+
+[33mcommit 66b755104784868c0001ae4be60b58050986b36b[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 28 17:16:47 2022 -0700
+
+    Close to finalization of footer mobile format and icons
+
+[33mcommit 7db797e27e6161bb0460bf3e3972561466e9b5f8[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Mon Jun 27 17:50:35 2022 -0700
+
+    Further mobile flex padding and margins
+
+[33mcommit d0a8e96f3eaaf1b10fd53ed625829fa9e4afceea[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Fri Jun 24 16:18:23 2022 -0700
+
+    Added responsive backgrounds, images, and icons tweaked mobile
+
+[33mcommit 1af0de0a5883a3a492fe945575198d4c21676e3d[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 23 18:13:15 2022 -0700
+
+    Attempted responsive background images need troubhleshoot
+
+[33mcommit 2e7ea24460dd21ce2c0085bc5effa63812f04bfb[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Thu Jun 23 17:39:04 2022 -0700
+
+    Edited assets to be web appropriate and added to img
+
+[33mcommit f90ae71c75431ba9b9015d12cbeeb34870f4a9b5[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Fri Jun 17 17:45:38 2022 -0700
+
+    Added colors and text stykes
+
+[33mcommit cead28cd4d504d80d9453a29bc507ddec810e3af[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Fri Jun 17 17:15:18 2022 -0700
+
+    Added font styles
+
+[33mcommit 673147359133485eb047ddfbd4ed61e8dc1f0a0e[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Fri Jun 17 16:26:36 2022 -0700
+
+    Added more to initial margins and padding
+
+[33mcommit 48861566c99960d845b9387b9d04ca72de5479d5[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Wed Jun 15 18:37:25 2022 -0700
+
+    Added CSS selectors and flexbox layout properties
+
+[33mcommit 7b479d0f1ed25e2e656a69498e3d5d9aa4f9cde5[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 14 18:22:19 2022 -0700
+
+    Fixed CSS links for homepage
+
+[33mcommit 8e3199af1f216623222eba9b2dbf8704f73dc5fe[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 14 18:16:56 2022 -0700
+
+    Finiahed HTML shells for About and FAQ
+
+[33mcommit c62d98f45661e8d28237cd3ef93e1908f342fc57[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 14 18:01:57 2022 -0700
+
+    Added header and footer to about and faq, HTML for faq
+
+[33mcommit a60fdeb292e0ea25532420a7c5b545c7117f16fd[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Tue Jun 14 17:28:24 2022 -0700
+
+    Finished HTML shell of homepage
+
+[33mcommit 9284b4dcc8cfc440ddb029ab3f6934e175c0baaf[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Mon Jun 13 19:27:12 2022 -0700
+
+    Basic HTML shell for homepage
+
+[33mcommit 6fa06362ca570ac7be4faad1cc022071585e5790[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Mon Jun 13 18:11:42 2022 -0700
+
+    Added pages for about and faq
+
+[33mcommit 6414bd1ffa8711375cb601344aadf68af4842867[m
+Author: tauri_s <tauristclaire@gmail.com>
+Date:   Mon Jun 13 17:11:40 2022 -0700
+
+    Initial commit
