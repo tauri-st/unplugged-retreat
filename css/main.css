@@ -796,12 +796,16 @@ input[type=button] {
   }
 
   header figure {
-    width: 30%;
+    width: 25%;
   }
 
 /** FOOTER **/
   footer h4 { 
     font-size: 1.875em;
+  }
+
+  .footer-content {
+    padding: 0 50px;
   }
 
 /***** HOMEPAGE *****/
@@ -848,7 +852,7 @@ input[type=button] {
 
   /** REVIEWS **/
   .reviews article {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .reviews .review-one {
@@ -864,10 +868,22 @@ input[type=button] {
   }
 
 /***** ABOUT *****/
-  .mission h2,
+  .mission {
+  
+  }
+
+  .mission .content-wrapper h2,
   .contact-section .content-wrapper h2 {
-    font-size: 3em;
-    width: 95%;
+    font-size: 2.8em;
+    word-spacing: .2em;
+  }
+
+  .mission-content {
+    justify-content: space-between;
+  }
+
+  .mission-content p {
+    
   }
 
 /** MAP **/
