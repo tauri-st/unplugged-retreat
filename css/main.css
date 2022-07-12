@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/***** GENERAL STYLES *****/
+/********** GENERAL STYLES **********/
 
 html {
   font-size: 16px;
@@ -105,17 +105,17 @@ h4 {
 }
 
 h2 {
-  font-size: 1.875em;
   font-weight: 500;
+  font-size: 1.875em;
 }
 
 h3 {
-  font-size: 1.125;
+  font-size: 1.125em;
   margin: 20px 0;
 }
 
 p {
-  font-size: .875;
+  font-size: .875em;
   line-height: 1.285;
 }
 
@@ -199,10 +199,6 @@ header nav ul {
   width: 100%;
 }
 
-header nav ul li {
-  
-}
-
 /* FOOTER STYLES */
 
 footer {
@@ -229,10 +225,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-.social {
-
-}
-
 footer .social-icons {
   display: flex;
   align-items: center;
@@ -254,24 +246,16 @@ footer .social-icons p {
   padding-bottom: 5px;
 }
 
-.copyright p {
-
-}
-
 /***** MOBILE STYLES *****/
  /***** HOMEPAGE *****/
 /* HERO STYLES */
 .hero-area {
   display: flex;
-  flex-wrap: row wrap;
+  flex-flow: row wrap;
   justify-content: center;
   background: url('../img/hero-image.jpg') center no-repeat green;
   background-size: cover;
   min-height: 500px;
-}
-
-.hero-area .content-wrapper {
-  
 }
 
 .hero-area h2 {
@@ -292,6 +276,10 @@ aside {
 }
 
 aside .content-wrapper {
+  margin: 0;
+}
+
+aside h3 {
   margin: 0;
 }
 
@@ -322,12 +310,8 @@ input[type=button] {
   background: url('../img/features-image.jpg') center no-repeat #333;
   background-size: cover;
   display: flex;
-  flex-wrap: row wrap;
+  flex-flow: row wrap;
   justify-content: center;
- }
-
- .features .content-wrapper {
-  
  }
 
  .features h2 {
@@ -340,7 +324,7 @@ input[type=button] {
  }
 
  .features i {
-  font-size: 3.75em;
+  font-size: 4em;
   margin-bottom: 40px;
  }
 
@@ -359,20 +343,12 @@ input[type=button] {
   margin: 0;
  }
 
- .fontawesome-icon {
-
- }
-
- .features-item-description {
-
- }
-
  /* REVIEWS STYLES */
  .reviews {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
  }
 
  .reviews .content-wrapper {
@@ -386,12 +362,6 @@ input[type=button] {
  .reviews h3 {
   width: 55%;
   margin: 20px 0;
- }
- .reviews article {
-
- }
- .review-one {
-
  }
 
  /***** ABOUT PAGE STYLES *****/
@@ -442,6 +412,8 @@ input[type=button] {
 
  .contact-section h3 {
   font-style:  normal;
+  margin: 0;
+  padding: 10px 0;
  }
 
  .contact-content p {
@@ -469,7 +441,7 @@ input[type=button] {
 
  .faq h2 {
   line-height: 1em;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
  }
 
  .faq-content {
@@ -582,7 +554,7 @@ input[type=button] {
 
   header .content-wrapper {
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 0;
   }
 
   header nav {
@@ -648,7 +620,6 @@ input[type=button] {
     font-size: 1.35em;
   }
   
-
    aside h3 {
     font-size: 1.5em;
    }
@@ -671,7 +642,7 @@ input[type=button] {
     justify-content: center;
     flex-basis: 35%;
     flex-flow: column wrap;
-    margin-top: 10px 45px 30px 45px;
+    margin: 10px 45px 30px 45px;
    }
 
    .features .features-item-description {
@@ -707,7 +678,7 @@ input[type=button] {
 /***** ABOUT *****/
 /** MISSION **/
   .mission .content-wrapper {
-    padding-top: 20px 0;
+    padding: 20px 0;
   } 
   .mission-content {
     display: flex;
@@ -760,7 +731,7 @@ input[type=button] {
 /*** Def confused about flex-basis still **/
    .faq .content-wrapper {
     flex-basis: 85%;
-    margin: 60px 0;
+    margin: 15px 0;
     justify-content: space-between;
    }
 
@@ -770,6 +741,7 @@ input[type=button] {
    }
 
    .faq h2 {
+    font-weight: 700;
     margin-bottom: 15px;
     width: 100%;
    }
@@ -897,7 +869,12 @@ input[type=button] {
 
 /***** FAQ *****/
   .faq h2 {
+    font-size: 2.7em;
     width: 100%;
+  }
+
+  .faq p {
+    word-spacing: .2em;
   }
 }
 
